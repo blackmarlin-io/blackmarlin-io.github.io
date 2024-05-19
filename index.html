@@ -1,60 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlackMarlin IO - Automation Solutions</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="dist/css/vendor/bootstrap.min.css">
+
+    <!-- Theme CSS Link -->
+    <link rel="stylesheet" href="dist/css/main.css">
+
+    <title>BlackMarlin.io</title>
 </head>
+
 <body>
-    <header>
-        <h1>BlackMarlin IO</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <section class="main" style="background-image: url(dist/src/images/bg.jpg);">
+        <!-- Header Starts Here -->
+        <header class="container">
+            <nav>
+                <div class="logo">
+                    <h5>BlackMarlin</h5>
+                </div>
+            </nav>
+        </header>
+        <!-- Header Ends Here -->
 
-    <main>
-        <section id="about">
-            <h2>About BlackMarlin IO</h2>
-            <p>BlackMarlin IO is a technology company specializing in automation solutions to streamline business processes and enhance productivity.</p>
-            <p>Our mission is to empower organizations with cutting-edge automation technologies, enabling them to focus on innovation and growth.</p>
+        <!-- News Letter Starts Here -->
+        <section class="newsletter-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2>We are Lunching soon!</h2>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- News Letter Ends Here -->
 
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>We offer a wide range of automation services tailored to meet the specific needs of our clients:</p>
-            <ul>
-                <li>DevOps Automation</li>
-                <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
-                <li>Infrastructure as Code (IaC)</li>
-                <li>Containerization and Orchestration</li>
-                <li>Cloud Automation</li>
-                <li>Process Automation</li>
-            </ul>
+        <!-- Only Mobile View Starts Here -->
+        <section class="xs-bg d-md-none d-lg-none">
+            <img src="dist/src/images/xs.jpg" alt="img" class="img-fluid w-100">
         </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you're interested in learning more about our automation solutions or would like to discuss a project, please get in touch:</p>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 BlackMarlin IO - Automation Solutions</p>
-    </footer>
+        <!-- Only Mobile View Ends Here -->
+    </section>
 </body>
+
 </html>
